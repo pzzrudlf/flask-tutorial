@@ -10,7 +10,7 @@ Welcome to Flask入门与进阶's documentation!
    :maxdepth: 2
    :caption: Contents:
 
-
+   tool/index.md
 
 Indices and tables
 ==================

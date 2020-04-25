@@ -1,3 +1,5 @@
+# mactex + vscode 输出中文pdf文档
+# https://www.jianshu.com/p/29adf0eadd30
 # Configuration file for the Sphinx documentation builder.
 #
 # This file only contains a selection of the most common options. For a full
@@ -30,7 +32,18 @@ release = '1.0'
 # Add any Sphinx extension module names here, as strings. They can be
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
-extensions = ['recommonmark']
+extensions = [
+   'recommonmark',
+   'sphinx.ext.autodoc',
+   'sphinx.ext.doctest',
+   'sphinx.ext.intersphinx',
+   'sphinx.ext.todo',
+   'sphinx.ext.coverage',
+   'sphinx.ext.mathjax',
+   'sphinx.ext.ifconfig',
+   'sphinx.ext.viewcode',
+   'sphinx.ext.githubpages',
+]
 
 source_suffix = {
     '.rst': 'restructuredtext',
